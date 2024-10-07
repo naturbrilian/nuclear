@@ -9,12 +9,12 @@
     "queue": "Tambahkan album ke daftar antrian",
     "tracks": "Lagu:",
     "year": "Tahun:",
-    "add-to-playlist": "Add album to playlist",
-    "create-playlist": "Create a new playlist",
-    "create-playlist-dialog-title": "Input playlist name:",
-    "create-playlist-dialog-placeholder": "Playlist name...",
-    "create-playlist-dialog-accept": "Save",
-    "create-playlist-dialog-cancel": "Cancel"
+    "add-to-playlist": "Tambahkan album ke playlist",
+    "create-playlist": "Buat playlist baru",
+    "create-playlist-dialog-title": "Masukkan nama playlist:",
+    "create-playlist-dialog-placeholder": "Nama playlist...",
+    "create-playlist-dialog-accept": "Simpan",
+    "create-playlist-dialog-cancel": "Batal"
   },
   "app": {
     "collection": "Koleksi",
@@ -28,13 +28,13 @@
     "listening-history": "Riwayat Mendengarkan",
     "lyrics": "Lirik",
     "main": "Main",
-    "playlists": "Daftar Putar",
+    "playlists": "Playlist",
     "plugins": "Plugin",
     "search": "Pencarian",
     "settings": "Pengaturan",
     "visualizer": "Visualizer",
     "user-panel": {
-      "actions-tooltip": "User actions",
+      "actions-tooltip": "Tindakan pengguna",
       "sign-up": "Daftar / Masuk",
       "sign-out": "Keluar"
     },
@@ -47,7 +47,7 @@
     "similar": "Musisi yang mirip",
     "title": "Judul",
     "tour": "Dalam tur",
-    "popular-tracks": "Popular tracks"
+    "popular-tracks": "Trek terpopuler"
   },
   "dashboard": {
     "add-all": "Tambahkan semua",
@@ -59,7 +59,7 @@
     "popular-track-title": "Lagu Teratas dari Deezer",
     "title": "Judul",
     "top": "Lagu Teratas",
-    "trending-playlists": "Daftar Putar yang Lagi Tren",
+    "trending-playlists": "Playlist yang Lagi Tren",
     "trending-artists": "Artis yang sedang hangat",
     "trending-albums": "Album yang lagi ngetren",
     "filter": "Filter...",
@@ -151,29 +151,29 @@
     "delete": "Hapus daftar putar ini",
     "duration": "Durasi",
     "empty": "Tidak ada daftar putar.",
-    "empty-help": "Try creating playlists, or import by URL, and they will appear here!",
+    "empty-help": "Coba buat playlist, atau impor dari URL, dan mereka akan muncul disini!",
     "error-empty-data": "Data kosong",
     "error-invalid-data": "Data tidak valid",
     "error-open-file": "Tidak bisa membuka berkas",
     "error-save-file": "Tidak bisa menyimpan berkas",
-    "export-button": "Ekspor daftar putar (JSON)",
-    "export-fail-title": "Eksport daftar putar gagal",
-    "export-success-title": "Daftar putar berhasil diekspor",
-    "header": "Daftar putarmu",
-    "header-add-button": "Add",
-    "import-progress": "Impor perkembangan",
+    "export-button": "Ekspor playlist (JSON)",
+    "export-fail-title": "Ekspor playlist gagal",
+    "export-success-title": "Playlist berhasil diekspor",
+    "header": "Playlistmu",
+    "header-add-button": "Tambahkan",
+    "import-progress": "Impor kemajuan",
     "spotify-import-placeholder": "Tempelkan tautan playlist Spotify di sini",
     "dialog-placeholder": "Nama daftar putar...",
     "dialog-accept": "Simpan",
     "dialog-cancel": "Batal",
     "dialog-rename": "Ubah Nama",
     "dialog-import": "Impor",
-    "create-button": "Create a new playlist",
-    "new-playlist": "Daftar putar baru",
-    "import-url-button": "Import from Spotify",
+    "create-button": "Buat playlist baru",
+    "new-playlist": "Playlist baru",
+    "import-url-button": "Impor dari Spotify",
     "import-button": "Impor berkas (JSON)",
-    "import-fail-title": "Impor daftar putar gagal",
-    "import-success-title": "Daftar putar berhasil diimpor",
+    "import-fail-title": "Impor playlist gagal",
+    "import-success-title": "Playlist berhasil diimpor",
     "play-selected-tracks-now": "Putar pilihan",
     "playlist-created": "{{name}} berhasil dibuat",
     "playlist-exported": "{{name}} berhasil disimpan ke file lokal",
@@ -192,10 +192,10 @@
     "upload-to-server": "Unggah ke server",
     "download-from-server": "Unduh dari server",
     "number-of-tracks": "lagu",
-    "input-playlist-url": "Paste playlist URL:",
-    "create-playlist-dialog-title": "Input playlist name:",
+    "input-playlist-url": "Tempel URL playlist:",
+    "create-playlist-dialog-title": "Masukkan nama playlist:",
     "playlist": "Playlist",
-    "play": "Play"
+    "play": "Putar"
   },
   "plugins": {
     "add-a-plugin": "Tambahkan plugin",
@@ -222,7 +222,7 @@
     "favorite-add": "Tambahkan ke favorit",
     "header": "antrian",
     "header-track": "Lagu sekarang",
-    "copy-track-url": "Copy track URL to clipboard",
+    "copy-track-url": "Salin URL trek ke papan klip",
     "loading": "Sedang memuat.",
     "playlist-add": "Tambahkan ke daftar putar",
     "playlist-add-queue": "Tambahkan antrian ke daftar putar",
@@ -247,8 +247,8 @@
       "verify": "Verifikasi",
       "unverify": "Tidak diverifikasi"
     },
-    "create-playlist-dialog-title": "Input playlist name:",
-    "play-now": "Play now"
+    "create-playlist-dialog-title": "Masukkan nama playlist:",
+    "play-now": "Putar sekarang"
   },
   "search": {
     "album": "Album",
@@ -261,9 +261,9 @@
     "last-searches": "Pencarian terakhir",
     "live-stream": "Livestream",
     "placeholder": "Cari...",
-    "playlist": "Daftar putar",
-    "playlist_plural": "Daftar Putar",
-    "podcast": "Podcast",
+    "playlist": "Playlist",
+    "playlist_plural": "Playlist",
+    "podcast": "Siniar",
     "queue-add": "Tambahkan semua lagu ke antrian",
     "track": "Lagu",
     "track_plural": "Lagu",
@@ -348,7 +348,7 @@
     "user": "Pengguna:",
     "user-id": "ID Pengguna",
     "use-stream-verification": "Gunakan verifikasi stream",
-    "use-stream-verification-description": "Use stream verification. Loads the streams the community has verified as being correct for the tracks you play. Also allows you to vote on streams. See documentation for details.",
+    "use-stream-verification-description": "Gunakan verifikasi stream. Memuat stream yang telah diverifikasi oleh komunitas sebagai kebenaran untuk trek yang Anda putar. Juga mengizinkan kamu untuk vote di stream. Lihat dokumentasi untuk lebih lengkapnya.",
     "youtube": "Youtube",
     "yt-api-key": "Kunci API Youtube"
   },
@@ -364,7 +364,7 @@
     "add-to-favorite": "Tambahkan ke favorit",
     "add-to-playlist": "Tambahkan ke daftar putar",
     "add-to-queue": "Tambahkan ke daftar antri",
-    "create-playlist": "Create a new playlist",
+    "create-playlist": "Buat playlist baru",
     "create-playlist-dialog-title": "Masukkan nama playlist:",
     "create-playlist-dialog-placeholder": "Nama playlist...",
     "create-playlist-dialog-accept": "Simpan",
@@ -391,13 +391,13 @@
     "exit-fullscreen": "Tekan ESC untuk keluar dari layar penuh"
   },
   "command-palette": {
-    "reminder": "to open the command palette",
+    "reminder": "untuk membuka palet perintah",
     "search-placeholder": "Apa yang ingin anda lakukan?",
     "empty-state-help": "Tidak dapat menemukan apa yang anda inginkan? Coba dengan perintah bantuan.",
     "protip-text": "PROTIP:",
     "protip-content": "Arrows untuk menavigasikan, Enter untuk memilih, Esc untuk menutup",
     "categories": {
-      "playback": "Pemutaran Belakang",
+      "playback": "Pemutaran",
       "queue": "Antrian",
       "navigation": "Navigasi",
       "application": "Aplikasi"
@@ -446,18 +446,18 @@
       "header": "Daftar",
       "secondary-header": "Daftar ke layanan Nuclear Web",
       "side-paragraph-1": "NWS memungkinkan kamu untuk membackup daftar putar secara online dan membagikannya ke orang lain.",
-      "side-paragraph-2": "Email hanya opsional saja; ini berfungsi untuk mengembalikan akunmu jika kamu lupa kata sandi.",
-      "username-label": "Username",
-      "email-label": "Email",
+      "side-paragraph-2": "Surel hanya opsional saja; ini berfungsi untuk mengembalikan akunmu jika kamu lupa kata sandi.",
+      "username-label": "Nama Pengguna",
+      "email-label": "Surel",
       "password-label": "Kata sandi",
       "sign-up-button": "Daftar",
       "validation": {
         "username": {
-          "length": "Username harus 4 karakter atau lebih",
-          "required": "Username wajib"
+          "length": "Nama pengguna harus 4 karakter atau lebih",
+          "required": "Nama pengguna wajib"
         },
         "email": {
-          "invalid": "Email harus berisi alamat yang valid"
+          "invalid": "Surel harus berisi alamat yang valid"
         },
         "password": {
           "length": "Kata sandi harus 6 karakter atau lebih",
@@ -467,7 +467,7 @@
     },
     "nuclear-sign-in": {
       "header": " Masuk",
-      "username-label": "Username",
+      "username-label": "Nama pengguna",
       "password-label": "Kata sandi",
       "no-account-label": "Belum memiliki akun?",
       "no-account-link": "Daftar",
